@@ -1,7 +1,8 @@
-var express 	= require('express');
-const exValidator			= require ('express-validator');
-var userModel 	= require.main.require('./models/TraveLBLiss_users');
-var router 		= express.Router();
+
+var express		= require('express');
+const exValidator	= require ('express-validator');
+var userModel		= require.main.require('./models/TraveLBLiss_users');
+var router			= express.Router();
 //var upload = require('express-fileupload');
 
 router.get('/', function(req, res){
